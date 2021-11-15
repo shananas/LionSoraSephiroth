@@ -1,0 +1,33 @@
+title: Lion Sora Sephiroth
+originalAuthor: Shananas
+game: kh2
+description: Thanks to DA for the start since he made his antiform sora mod. Also thanks to Rapid and Zurph in the OpenKH disc for help on other aspects.
+assets:
+
+#moveset edits
+- name: obj/F_EX030.mset
+  method: copy
+  source:
+  - name: obj/F_EX030.mset
+- name: obj/F_EX030_TT.mset
+  method: copy
+  source:
+  - name: obj/F_EX030_TT.mset
+- name: obj/P_LK100.mset
+  method: copy
+  source:
+  - name: obj/P_LK100.mset
+
+#sora form edits
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: ObjList.yml
+    type: objentry
+
+#obj
+- name: obj/P_LK100.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK100.mdlx
