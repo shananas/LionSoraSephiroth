@@ -4,7 +4,7 @@
   ObjectType: PLAYER
   SubType: 0
   DrawPriority: 0
-  WeaponJoint: 20
+  WeaponJoint: 1
   ModelName: P_LK100
   AnimationName: P_LK100.mset
   Flags: 0
@@ -34,7 +34,7 @@
   ObjectType: PLAYER
   SubType: 0
   DrawPriority: 0
-  WeaponJoint: 20
+  WeaponJoint: 1
   ModelName: P_LK100
   AnimationName: P_LK100.mset
   Flags: 0
@@ -64,7 +64,7 @@
   ObjectType: PLAYER
   SubType: 0
   DrawPriority: 0
-  WeaponJoint: 20
+  WeaponJoint: 1
   ModelName: P_LK100
   AnimationName: P_LK100.mset
   Flags: 0
@@ -94,7 +94,7 @@
   ObjectType: PLAYER
   SubType: 0
   DrawPriority: 0
-  WeaponJoint: 20
+  WeaponJoint: 1
   ModelName: P_LK100
   AnimationName: P_LK100.mset
   Flags: 0
@@ -124,7 +124,7 @@
   ObjectType: PLAYER
   SubType: 0
   DrawPriority: 0
-  WeaponJoint: 20
+  WeaponJoint: 1
   ModelName: P_LK100
   AnimationName: P_LK100.mset
   Flags: 0

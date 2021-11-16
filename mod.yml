@@ -5,14 +5,6 @@ description: Thanks to DA for the start since he made his antiform sora mod. Als
 assets:
 
 #moveset edits
-- name: obj/F_EX030.mset
-  method: copy
-  source:
-  - name: obj/F_EX030.mset
-- name: obj/F_EX030_TT.mset
-  method: copy
-  source:
-  - name: obj/F_EX030_TT.mset
 - name: obj/P_LK100.mset
   method: copy
   source:
@@ -25,6 +17,10 @@ assets:
   source:
   - name: ObjList.yml
     type: objentry
+- name: 03system.bin
+  method: copy
+  source:
+  - name: 03system.bin
 
 #obj
 - name: obj/P_LK100.mdlx
