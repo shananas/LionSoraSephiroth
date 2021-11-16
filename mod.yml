@@ -27,3 +27,85 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100.mdlx
+
+#limits
+- name: limit/fm/simba.bar
+  method: copy
+  source:
+  - name: limit/fm/simba.bar
+- name: limit/fm/aladdin.bar
+  method: copy
+  source:
+  - name: limit/fm/aladdin.bar
+- name: limit/fm/auron.bar
+  method: copy
+  source:
+  - name: limit/fm/auron.bar
+- name: limit/fm/beast.bar
+  method: copy
+  source:
+  - name: limit/fm/beast.bar
+- name: limit/fm/donald.bar
+  method: copy
+  source:
+  - name: limit/fm/donald.bar
+- name: limit/fm/donald_wi.bar
+  method: copy
+  source:
+  - name: limit/fm/donald_wi.bar
+- name: limit/fm/donald2.bar
+  method: copy
+  source:
+  - name: limit/fm/donald2.bar
+- name: limit/fm/donald2_wi.bar
+  method: copy
+  source:
+  - name: limit/fm/donald2_wi.bar
+- name: limit/fm/goofy.bar
+  method: copy
+  source:
+  - name: limit/fm/goofy.bar
+- name: limit/fm/goofy_wi.bar
+  method: copy
+  source:
+  - name: limit/fm/goofy_wi.bar
+- name: limit/fm/goofy2.bar
+  method: copy
+  source:
+  - name: limit/fm/goofy2.bar
+- name: limit/fm/goofy2_wi.bar
+  method: copy
+  source:
+  - name: limit/fm/goofy2_wi.bar
+- name: limit/fm/jack.bar
+  method: copy
+  source:
+  - name: limit/fm/jack.bar
+- name: limit/fm/mulan.bar
+  method: copy
+  source:
+  - name: limit/fm/mulan.bar
+- name: limit/fm/riku.bar
+  method: copy
+  source:
+  - name: limit/fm/riku.bar
+- name: limit/fm/sparrow.bar
+  method: copy
+  source:
+  - name: limit/fm/sparrow.bar
+- name: limit/fm/trinity.bar
+  method: copy
+  source:
+  - name: limit/fm/trinity.bar
+- name: limit/fm/trinity_wi.bar
+  method: copy
+  source:
+  - name: limit/fm/trinity_wi.bar
+- name: limit/fm/trinity_zz.bar
+  method: copy
+  source:
+  - name: limit/fm/trinity_zz.bar
+- name: limit/fm/tron.bar
+  method: copy
+  source:
+  - name: limit/fm/tron.bar
