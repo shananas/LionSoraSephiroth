@@ -5,8 +5,8 @@
   SubType: 0
   DrawPriority: 0
   WeaponJoint: 1
-  ModelName: P_EX100
-  AnimationName: P_EX100.mset
+  ModelName: P_LK100
+  AnimationName: P_LK100.mset
   Flags: 0
   ObjectTargetType: M
   Padding: 0
@@ -35,8 +35,8 @@
   SubType: 0
   DrawPriority: 0
   WeaponJoint: 1
-  ModelName: P_EX100
-  AnimationName: P_EX100.mset
+  ModelName: P_LK100
+  AnimationName: P_LK100.mset
   Flags: 0
   ObjectTargetType: M
   Padding: 0
@@ -65,8 +65,8 @@
   SubType: 0
   DrawPriority: 0
   WeaponJoint: 1
-  ModelName: P_EX100
-  AnimationName: P_EX100.mset
+  ModelName: P_LK100
+  AnimationName: P_LK100.mset
   Flags: 0
   ObjectTargetType: M
   Padding: 0
@@ -95,8 +95,8 @@
   SubType: 0
   DrawPriority: 0
   WeaponJoint: 1
-  ModelName: P_EX100
-  AnimationName: P_EX100.mset
+  ModelName: P_LK100
+  AnimationName: P_LK100.mset
   Flags: 0
   ObjectTargetType: M
   Padding: 0
@@ -125,8 +125,8 @@
   SubType: 0
   DrawPriority: 0
   WeaponJoint: 1
-  ModelName: P_EX100
-  AnimationName: P_EX100.mset
+  ModelName: P_LK100
+  AnimationName: P_LK100.mset
   Flags: 0
   ObjectTargetType: M
   Padding: 0
