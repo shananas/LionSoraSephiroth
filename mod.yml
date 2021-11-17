@@ -5,7 +5,7 @@ description: Thanks to DA for the start since he made his antiform sora mod. Als
 assets:
 
 #moveset edits
-- name: obj/P_LK100.mset
+- name: obj/P_EX100.mset
   method: copy
   source:
   - name: obj/P_LK100.mset
@@ -27,7 +27,7 @@ assets:
   - name: 00battle.bin
 
 #obj
-- name: obj/P_LK100.mdlx
+- name: obj/P_EX100.mdlx
   method: copy
   source:
   - name: obj/P_LK100.mdlx
