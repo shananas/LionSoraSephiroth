@@ -21,6 +21,10 @@ assets:
   method: copy
   source:
   - name: 03system.bin
+- name: 00battle.bin
+  method: copy
+  source:
+  - name: 00battle.bin
 
 #obj
 - name: obj/P_LK100.mdlx
