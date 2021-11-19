@@ -17,14 +17,31 @@ assets:
   source:
   - name: ObjList.yml
     type: objentry
-- name: 03system.bin
-  method: copy
+- method: binarc
+  name: 03system.bin
   source:
-  - name: 03system.bin
-- name: 00battle.bin
-  method: copy
+  - method: copy
+    name: pref
+    source:
+    - name: pref_0.bin
+    type: binary
+- method: binarc
+  name: 03system.bin
   source:
-  - name: 00battle.bin
+  - method: copy
+    name: sklt
+    source:
+    - name: sklt_0.list
+    type: list
+- method: binarc
+  name: 00battle.bin
+  source:
+  - method: copy
+    name: magc
+    source:
+    - name: magc_0.list
+    type: list
+
 
 #obj
 - name: obj/P_EX100.mdlx
