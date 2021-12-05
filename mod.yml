@@ -13,6 +13,10 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100_CARPET.mset
+- name: obj/P_EX100_ESCAPE.mset
+  method: copy
+  source:
+  - name: obj/P_LK100_ESCAPE.mset
 
 #sora form edits
 - name: 00objentry.bin
