@@ -149,3 +149,33 @@
   IsPirate: false
   WallOcclusion: false
   Hift: false
+1279:
+  ObjectId: 1279
+  ObjectType: PLAYER
+  SubType: 0
+  DrawPriority: 0
+  WeaponJoint: 1
+  ModelName: P_EX100_AL_CARPET
+  AnimationName: P_EX100_AL_CARPET.mset
+  Flags: 0
+  ObjectTargetType: M
+  Padding: 0
+  NeoStatus: 1
+  NeoMoveset: 53
+  Weight: 100
+  SpawnLimiter: 0
+  Page: 0
+  ObjectShadowSize: NoShadow
+  ObjectForm: SoraRoxasDefault
+  SpawnObject1: 0
+  SpawnObject2: 0
+  SpawnObject3: 0
+  SpawnObject4: 0
+  NoApdx: false
+  Before: false
+  FixColor: false
+  Fly: false
+  Scissoring: false
+  IsPirate: false
+  WallOcclusion: false
+  Hift: false

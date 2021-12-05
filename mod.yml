@@ -9,6 +9,10 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100.mset
+- name: obj/P_EX100_AL_CARPET.mset
+  method: copy
+  source:
+  - name: obj/P_LK100_CARPET.mset
 
 #sora form edits
 - name: 00objentry.bin
@@ -49,6 +53,14 @@ assets:
   source:
   - name: obj/P_LK100.mdlx
 - name: obj/P_EX100.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK100.a.fm
+- name: obj/P_EX100_AL_CARPET.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK100_CARPET.mdlx
+- name: obj/P_EX100_AL_CARPET.a.fm
   method: copy
   source:
   - name: obj/P_LK100.a.fm
