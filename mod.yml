@@ -17,6 +17,14 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100_ESCAPE.mset
+- name: obj/P_EX110.mset
+  method: copy
+  source:
+  - name: obj/P_LK100.mset
+- name: obj/P_EX110_BTLF.mset
+  method: copy
+  source:
+  - name: obj/P_LK100.mset
 
 #sora form edits
 - name: 00objentry.bin
@@ -65,6 +73,30 @@ assets:
   source:
   - name: obj/P_LK100_CARPET.mdlx
 - name: obj/P_EX100_AL_CARPET.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK100.a.fm
+- name: obj/AL14_PLAYER.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK100.mdlx
+- name: obj/AL14_PLAYER.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK100.a.fm
+- name: obj/P_EX110.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK100.mdlx
+- name: obj/P_EX110.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK100.a.fm
+- name: obj/P_EX110_BTLF.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK100.mdlx
+- name: obj/P_EX110_BTLF.a.fm
   method: copy
   source:
   - name: obj/P_LK100.a.fm
