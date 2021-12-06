@@ -25,6 +25,14 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100.mset
+- name: obj/F_EX030.mset
+  method: copy
+  source:
+  - name: obj/F_EX030.mset
+- name: obj/F_EX030_TT.mset
+  method: copy
+  source:
+  - name: obj/F_EX030_TT.mset
 
 #sora form edits
 - name: 00objentry.bin
