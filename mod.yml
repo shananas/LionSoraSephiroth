@@ -108,6 +108,10 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100.a.fm
+- name: obj/B_EX110_LV99.mdlx
+  method: copy
+  source:
+  - name: obj/B_EX110.mdlx
 
 #limits
 - name: limit/fm/simba.bar
