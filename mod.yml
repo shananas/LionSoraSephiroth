@@ -112,6 +112,10 @@ assets:
   method: copy
   source:
   - name: obj/B_EX110.mdlx
+- name: obj/B_EX130_LV99.mdlx
+  method: copy
+  source:
+  - name: obj/B_EX130.mdlx
 
 #limits
 - name: limit/fm/simba.bar
