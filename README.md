@@ -5,9 +5,12 @@ Thanks to DA for the start since he made his antiform sora mod. Also thanks to R
 ![icon](https://user-images.githubusercontent.com/47014056/144799143-606a4424-3c18-4bc5-aa2e-4e837467424b.png)
 
 Play as Lion Sora Everywhere but Pooh minigames that aren't spooky cave. Some RCs may miss try again/get closer. 
+
 You'll want thunder for boat pete and a form helps but if you let Lion Sora fall of the hook you'll keep hitting the cage after getting back on.
+
 Data Axel is now Axel 2 so you can beat him and he's a little bit easier ofc.
-Data Xaldin is now normal Xaldin so he is not tooannoying to fight lower levels since jumps are hard to get(No guard or aerial dodge parry as a lion).
+
+Data Xaldin is now normal Xaldin so he is not too annoying to fight lower levels since jumps are hard to get(No guard or aerial dodge parry as a lion).
 
 Nothing is impossible anymore and most animations look normalish.
 
