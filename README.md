@@ -2,6 +2,10 @@
 
 Thanks to DA for the start since he made his antiform sora mod. Also thanks to Rapid and Zurph in the OpenKH disc for help on other aspects.
 
+PC BUG
+If using on PC forms crash in TR HT AND SP so don't use them there 
+
+
 ![icon](https://user-images.githubusercontent.com/47014056/144799143-606a4424-3c18-4bc5-aa2e-4e837467424b.png)
 
 Play as Lion Sora Everywhere but Pooh minigames that aren't spooky cave. Some RCs may miss try again/get closer. 
