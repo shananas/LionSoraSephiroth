@@ -239,3 +239,33 @@
   IsPirate: false
   WallOcclusion: false
   Hift: false
+1729:
+  ObjectId: 1729
+  ObjectType: PLAYER
+  SubType: 0
+  DrawPriority: 0
+  WeaponJoint: 27
+  ModelName: P_EX100
+  AnimationName: P_EX100.mset
+  Flags: 0
+  ObjectTargetType: M
+  Padding: 0
+  NeoStatus: 1
+  NeoMoveset: 7
+  Weight: 100
+  SpawnLimiter: 0
+  Page: 17
+  ObjectShadowSize: NoShadow
+  ObjectForm: SoraRoxasDefault
+  SpawnObject1: 0
+  SpawnObject2: 0
+  SpawnObject3: 0
+  SpawnObject4: 0
+  NoApdx: false
+  Before: false
+  FixColor: false
+  Fly: false
+  Scissoring: false
+  IsPirate: false
+  WallOcclusion: false
+  Hift: false
