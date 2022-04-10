@@ -244,7 +244,7 @@
   ObjectType: PLAYER
   SubType: 0
   DrawPriority: 0
-  WeaponJoint: 27
+  WeaponJoint: 1
   ModelName: P_EX100
   AnimationName: P_EX100.mset
   Flags: 0
