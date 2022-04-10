@@ -76,7 +76,6 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100.a.fm
-    type: internal
 - name: obj/P_EX100_AL_CARPET.mdlx
   method: copy
   source:
@@ -85,7 +84,6 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100.a.fm
-    type: internal
 - name: obj/AL14_PLAYER.mdlx
   method: copy
   source:
@@ -94,7 +92,6 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100.a.fm
-    type: internal
 - name: obj/P_EX110.mdlx
   method: copy
   source:
@@ -103,7 +100,6 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100.a.fm
-    type: internal
 - name: obj/P_EX110_BTLF.mdlx
   method: copy
   source:
@@ -112,7 +108,6 @@ assets:
   method: copy
   source:
   - name: obj/P_LK100.a.fm
-    type: internal
 - name: obj/B_EX110_LV99.mdlx
   method: copy
   source:
