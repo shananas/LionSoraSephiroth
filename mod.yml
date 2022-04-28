@@ -121,82 +121,122 @@ assets:
 
 #limits
 - name: limit/fm/simba.bar
+  multi:
+    - name: limit/us/simba.bar
   method: copy
   source:
   - name: limit/fm/simba.bar
 - name: limit/fm/aladdin.bar
+  multi:
+    - name: limit/us/aladdin.bar
   method: copy
   source:
   - name: limit/fm/aladdin.bar
 - name: limit/fm/auron.bar
+  multi:
+    - name: limit/us/auron.bar
   method: copy
   source:
   - name: limit/fm/auron.bar
 - name: limit/fm/beast.bar
+  multi:
+    - name: limit/us/beast.bar
   method: copy
   source:
   - name: limit/fm/beast.bar
 - name: limit/fm/donald.bar
+  multi:
+    - name: limit/us/donald.bar
   method: copy
   source:
   - name: limit/fm/donald.bar
 - name: limit/fm/donald_wi.bar
+  multi:
+    - name: limit/us/donald_wi.bar
   method: copy
   source:
   - name: limit/fm/donald_wi.bar
 - name: limit/fm/donald2.bar
+  multi:
+    - name: limit/us/donald2.bar
   method: copy
   source:
   - name: limit/fm/donald2.bar
 - name: limit/fm/donald2_wi.bar
+  multi:
+    - name: limit/us/donald2_wi.bar
   method: copy
   source:
   - name: limit/fm/donald2_wi.bar
 - name: limit/fm/goofy.bar
+  multi:
+    - name: limit/us/goofy.bar
   method: copy
   source:
   - name: limit/fm/goofy.bar
 - name: limit/fm/goofy_wi.bar
+  multi:
+    - name: limit/us/goofy_wi.bar
   method: copy
   source:
   - name: limit/fm/goofy_wi.bar
 - name: limit/fm/goofy2.bar
+  multi:
+    - name: limit/us/goofy2.bar
   method: copy
   source:
   - name: limit/fm/goofy2.bar
 - name: limit/fm/goofy2_wi.bar
+  multi:
+    - name: limit/us/goofy2_wi.bar
   method: copy
   source:
   - name: limit/fm/goofy2_wi.bar
 - name: limit/fm/jack.bar
+  multi:
+    - name: limit/us/jack.bar
   method: copy
   source:
   - name: limit/fm/jack.bar
 - name: limit/fm/mulan.bar
+  multi:
+    - name: limit/us/mulan.bar
   method: copy
   source:
   - name: limit/fm/mulan.bar
 - name: limit/fm/riku.bar
+  multi:
+    - name: limit/us/riku.bar
   method: copy
   source:
   - name: limit/fm/riku.bar
 - name: limit/fm/sparrow.bar
+  multi:
+    - name: limit/us/sparrow.bar
   method: copy
   source:
   - name: limit/fm/sparrow.bar
 - name: limit/fm/trinity.bar
+  multi:
+    - name: limit/us/trinity.bar
   method: copy
   source:
   - name: limit/fm/trinity.bar
 - name: limit/fm/trinity_wi.bar
+  multi:
+    - name: limit/us/trinity_wi.bar
   method: copy
   source:
   - name: limit/fm/trinity_wi.bar
 - name: limit/fm/trinity_zz.bar
+  multi:
+    - name: limit/us/trinity_zz.bar
   method: copy
   source:
   - name: limit/fm/trinity_zz.bar
 - name: limit/fm/tron.bar
+  multi:
+    - name: limit/us/tron.bar
   method: copy
   source:
   - name: limit/fm/tron.bar
