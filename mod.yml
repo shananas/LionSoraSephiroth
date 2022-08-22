@@ -73,41 +73,81 @@ assets:
   source:
   - name: obj/P_LK100.mdlx
 - name: obj/P_EX100.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK100.a.fm
+    type: internal
+- name: obj/P_EX100.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK100.a.us
+    type: internal
 - name: obj/P_EX100_AL_CARPET.mdlx
   method: copy
   source:
   - name: obj/P_LK100_CARPET.mdlx
 - name: obj/P_EX100_AL_CARPET.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK100.a.fm
+    type: internal
+- name: obj/P_EX100_AL_CARPET.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK100.a.us
+    type: internal
 - name: obj/AL14_PLAYER.mdlx
   method: copy
   source:
   - name: obj/P_LK100.mdlx
 - name: obj/AL14_PLAYER.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK100.a.fm
+    type: internal
+- name: obj/AL14_PLAYER.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK100.a.us
+    type: internal
 - name: obj/P_EX110.mdlx
   method: copy
   source:
   - name: obj/P_LK100.mdlx
 - name: obj/P_EX110.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK100.a.fm
+    type: internal
+- name: obj/P_EX110.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK100.a.us
+    type: internal
 - name: obj/P_EX110_BTLF.mdlx
   method: copy
   source:
   - name: obj/P_LK100.mdlx
 - name: obj/P_EX110_BTLF.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK100.a.fm
+    type: internal
+- name: obj/P_EX110_BTLF.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK100.a.us
+    type: internal
 - name: obj/B_EX110_LV99.mdlx
   method: copy
   source:
@@ -121,122 +161,203 @@ assets:
 
 #limits
 - name: limit/fm/simba.bar
-  multi:
-    - name: limit/us/simba.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/simba.bar
 - name: limit/fm/aladdin.bar
-  multi:
-    - name: limit/us/aladdin.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/aladdin.bar
 - name: limit/fm/auron.bar
-  multi:
-    - name: limit/us/auron.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/auron.bar
 - name: limit/fm/beast.bar
-  multi:
-    - name: limit/us/beast.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/beast.bar
 - name: limit/fm/donald.bar
-  multi:
-    - name: limit/us/donald.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/donald.bar
 - name: limit/fm/donald_wi.bar
-  multi:
-    - name: limit/us/donald_wi.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/donald_wi.bar
 - name: limit/fm/donald2.bar
-  multi:
-    - name: limit/us/donald2.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/donald2.bar
 - name: limit/fm/donald2_wi.bar
-  multi:
-    - name: limit/us/donald2_wi.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/donald2_wi.bar
 - name: limit/fm/goofy.bar
-  multi:
-    - name: limit/us/goofy.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/goofy.bar
 - name: limit/fm/goofy_wi.bar
-  multi:
-    - name: limit/us/goofy_wi.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/goofy_wi.bar
 - name: limit/fm/goofy2.bar
-  multi:
-    - name: limit/us/goofy2.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/goofy2.bar
 - name: limit/fm/goofy2_wi.bar
-  multi:
-    - name: limit/us/goofy2_wi.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/goofy2_wi.bar
 - name: limit/fm/jack.bar
-  multi:
-    - name: limit/us/jack.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/jack.bar
 - name: limit/fm/mulan.bar
-  multi:
-    - name: limit/us/mulan.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/mulan.bar
 - name: limit/fm/riku.bar
-  multi:
-    - name: limit/us/riku.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/riku.bar
 - name: limit/fm/sparrow.bar
-  multi:
-    - name: limit/us/sparrow.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/sparrow.bar
 - name: limit/fm/trinity.bar
-  multi:
-    - name: limit/us/trinity.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/trinity.bar
 - name: limit/fm/trinity_wi.bar
-  multi:
-    - name: limit/us/trinity_wi.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/trinity_wi.bar
 - name: limit/fm/trinity_zz.bar
-  multi:
-    - name: limit/us/trinity_zz.bar
+  platform: ps2
   method: copy
   source:
   - name: limit/fm/trinity_zz.bar
 - name: limit/fm/tron.bar
-  multi:
-    - name: limit/us/tron.bar
+  platform: ps2
+  method: copy
+  source:
+  - name: limit/fm/tron.bar
+#PC
+- name: limit/us/simba.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/simba.bar
+- name: limit/us/aladdin.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/aladdin.bar
+- name: limit/us/auron.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/auron.bar
+- name: limit/us/beast.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/beast.bar
+- name: limit/us/donald.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/donald.bar
+- name: limit/us/donald_wi.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/donald_wi.bar
+- name: limit/us/donald2.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/donald2.bar
+- name: limit/us/donald2_wi.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/donald2_wi.bar
+- name: limit/us/goofy.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/goofy.bar
+- name: limit/us/goofy_wi.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/goofy_wi.bar
+- name: limit/us/goofy2.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/goofy2.bar
+- name: limit/us/goofy2_wi.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/goofy2_wi.bar
+- name: limit/us/jack.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/jack.bar
+- name: limit/us/mulan.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/mulan.bar
+- name: limit/us/riku.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/riku.bar
+- name: limit/us/sparrow.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/sparrow.bar
+- name: limit/us/trinity.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/trinity.bar
+- name: limit/us/trinity_wi.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/trinity_wi.bar
+- name: limit/us/trinity_zz.bar
+  platform: pc
+  method: copy
+  source:
+  - name: limit/fm/trinity_zz.bar
+- name: limit/us/tron.bar
+  platform: pc
   method: copy
   source:
   - name: limit/fm/tron.bar
