@@ -4,6 +4,36 @@ game: kh2
 description: Thanks to DA for the start since he made his antiform sora mod. Also thanks to Rapid and Zurph in the OpenKH disc for help on other aspects.
 assets:
 
+#sora form edits
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: ObjList.yml
+    type: objentry
+- name: 03system.bin
+  method: binarc  
+  source:
+  - name: pref
+    method: copy
+    source:
+    - name: pref_0.bin
+    type: binary
+  - name: sklt
+    method: copy
+    source:
+    - name: sklt_0.list
+    type: list
+- name: 00battle.bin
+  method: binarc
+  source:
+  - name: magc
+    method: copy
+    source:
+    - name: magc_0.list
+    type: list
+
+
 #moveset edits
 - name: obj/P_EX100.mset
   method: copy
@@ -33,39 +63,6 @@ assets:
   method: copy
   source:
   - name: obj/F_EX030_TT.mset
-
-#sora form edits
-- name: 00objentry.bin
-  method: listpatch
-  type: List
-  source:
-  - name: ObjList.yml
-    type: objentry
-- method: binarc
-  name: 03system.bin
-  source:
-  - method: copy
-    name: pref
-    source:
-    - name: pref_0.bin
-    type: binary
-- method: binarc
-  name: 03system.bin
-  source:
-  - method: copy
-    name: sklt
-    source:
-    - name: sklt_0.list
-    type: list
-- method: binarc
-  name: 00battle.bin
-  source:
-  - method: copy
-    name: magc
-    source:
-    - name: magc_0.list
-    type: list
-
 
 #obj
 - name: obj/P_EX100.mdlx
@@ -159,205 +156,184 @@ assets:
   - name: obj/B_EX130.mdlx
     type: internal
 
-#limits
-- name: limit/fm/simba.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/simba.bar
-- name: limit/fm/aladdin.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/aladdin.bar
-- name: limit/fm/auron.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/auron.bar
-- name: limit/fm/beast.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/beast.bar
-- name: limit/fm/donald.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/donald.bar
-- name: limit/fm/donald_wi.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/donald_wi.bar
-- name: limit/fm/donald2.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/donald2.bar
-- name: limit/fm/donald2_wi.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/donald2_wi.bar
-- name: limit/fm/goofy.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/goofy.bar
-- name: limit/fm/goofy_wi.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/goofy_wi.bar
-- name: limit/fm/goofy2.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/goofy2.bar
-- name: limit/fm/goofy2_wi.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/goofy2_wi.bar
-- name: limit/fm/jack.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/jack.bar
-- name: limit/fm/mulan.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/mulan.bar
-- name: limit/fm/riku.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/riku.bar
-- name: limit/fm/sparrow.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/sparrow.bar
-- name: limit/fm/trinity.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/trinity.bar
-- name: limit/fm/trinity_wi.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/trinity_wi.bar
-- name: limit/fm/trinity_zz.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/trinity_zz.bar
-- name: limit/fm/tron.bar
-  platform: ps2
-  method: copy
-  source:
-  - name: limit/fm/tron.bar
-#PC
-- name: limit/us/simba.bar
+#PC Remastered
+- name: remastered/obj/P_EX100.a.us/-0.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/simba.bar
-- name: limit/us/aladdin.bar
+  - name: remastered/obj/P_LK100.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX100.a.us/-1.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/aladdin.bar
-- name: limit/us/auron.bar
+  - name: remastered/obj/P_LK100.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX100.a.us/-2.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/auron.bar
-- name: limit/us/beast.bar
+  - name: remastered/obj/P_LK100.a.us/-2.dds
+    type: internal
+- name: remastered/obj/P_EX100.a.us/-3.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/beast.bar
-- name: limit/us/donald.bar
+  - name: remastered/obj/P_LK100.a.us/-3.dds
+    type: internal
+- name: remastered/obj/P_EX100.a.us/-4.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/donald.bar
-- name: limit/us/donald_wi.bar
+  - name: remastered/obj/P_LK100.a.us/-4.dds
+    type: internal
+- name: remastered/obj/P_EX100.a.us/-5.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/donald_wi.bar
-- name: limit/us/donald2.bar
+  - name: remastered/obj/P_LK100.a.us/-5.dds
+    type: internal
+- name: remastered/obj/P_EX100_AL_CARPET.a.us/-0.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/donald2.bar
-- name: limit/us/donald2_wi.bar
+  - name: remastered/obj/P_LK100.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX100_AL_CARPET.a.us/-1.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/donald2_wi.bar
-- name: limit/us/goofy.bar
+  - name: remastered/obj/P_LK100.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX100_AL_CARPET.a.us/-2.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/goofy.bar
-- name: limit/us/goofy_wi.bar
+  - name: remastered/obj/P_LK100.a.us/-2.dds
+    type: internal
+- name: remastered/obj/P_EX100_AL_CARPET.a.us/-3.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/goofy_wi.bar
-- name: limit/us/goofy2.bar
+  - name: remastered/obj/P_LK100.a.us/-3.dds
+    type: internal
+- name: remastered/obj/P_EX100_AL_CARPET.a.us/-4.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/goofy2.bar
-- name: limit/us/goofy2_wi.bar
+  - name: remastered/obj/P_LK100.a.us/-4.dds
+    type: internal
+- name: remastered/obj/P_EX100_AL_CARPET.a.us/-5.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/goofy2_wi.bar
-- name: limit/us/jack.bar
+  - name: remastered/obj/P_LK100.a.us/-5.dds
+    type: internal
+- name: remastered/obj/AL14_PLAYER.a.us/-0.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/jack.bar
-- name: limit/us/mulan.bar
+  - name: remastered/obj/P_LK100.a.us/-0.dds
+    type: internal
+- name: remastered/obj/AL14_PLAYER.a.us/-1.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/mulan.bar
-- name: limit/us/riku.bar
+  - name: remastered/obj/P_LK100.a.us/-1.dds
+    type: internal
+- name: remastered/obj/AL14_PLAYER.a.us/-2.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/riku.bar
-- name: limit/us/sparrow.bar
+  - name: remastered/obj/P_LK100.a.us/-2.dds
+    type: internal
+- name: remastered/obj/AL14_PLAYER.a.us/-3.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/sparrow.bar
-- name: limit/us/trinity.bar
+  - name: remastered/obj/P_LK100.a.us/-3.dds
+    type: internal
+- name: remastered/obj/AL14_PLAYER.a.us/-4.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/trinity.bar
-- name: limit/us/trinity_wi.bar
+  - name: remastered/obj/P_LK100.a.us/-4.dds
+    type: internal
+- name: remastered/obj/AL14_PLAYER.a.us/-5.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/trinity_wi.bar
-- name: limit/us/trinity_zz.bar
+  - name: remastered/obj/P_LK100.a.us/-5.dds
+    type: internal
+- name: remastered/obj/P_EX110.a.us/-0.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/trinity_zz.bar
-- name: limit/us/tron.bar
+  - name: remastered/obj/P_LK100.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX110.a.us/-1.dds
   platform: pc
   method: copy
   source:
-  - name: limit/fm/tron.bar
+  - name: remastered/obj/P_LK100.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX110.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-2.dds
+    type: internal
+- name: remastered/obj/P_EX110.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-3.dds
+    type: internal
+- name: remastered/obj/P_EX110.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-4.dds
+    type: internal
+- name: remastered/obj/P_EX110.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-5.dds
+    type: internal
+- name: remastered/obj/P_EX110_BTLF.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX110_BTLF.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX110_BTLF.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-2.dds
+    type: internal
+- name: remastered/obj/P_EX110_BTLF.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-3.dds
+    type: internal
+- name: remastered/obj/P_EX110_BTLF.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-4.dds
+    type: internal
+- name: remastered/obj/P_EX110_BTLF.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK100.a.us/-5.dds
+    type: internal
