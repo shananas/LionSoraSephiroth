@@ -2,8 +2,12 @@
 
 Thanks to DA for the start since he made his antiform sora mod. Also thanks to Rapid and Zurph in the OpenKH disc for help on other aspects.
 
+If using Better STT (Roxas movement magic etc) place above the seed for STT to work porperly as lion sora.
+
+If using this with lionsoracompanions make sure this is below the mentioned mod and check out its readme for some bugs specific to it.
+
 PC BUG
-If using on PC forms crash in TR HT AND SP so don't use them there 
+If using on PC forms crash in TR HT AND SP so don't use them there .
 
 
 ![icon](https://user-images.githubusercontent.com/47014056/144799143-606a4424-3c18-4bc5-aa2e-4e837467424b.png)
