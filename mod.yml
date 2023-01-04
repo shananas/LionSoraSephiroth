@@ -20,18 +20,20 @@ assets:
     - name: pref_0.bin
     type: binary
   - name: sklt
-    method: copy
+    method: listpatch
+    type: List
     source:
-    - name: sklt_0.list
-    type: list
+    - name: SkltList.yml
+      type: sklt
 - name: 00battle.bin
   method: binarc
   source:
   - name: magc
-    method: copy
+    method: listpatch
+    type: List
     source:
-    - name: magc_0.list
-    type: list
+    - name: MagcList.yml
+      type: magc
 
 
 #moveset edits
