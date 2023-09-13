@@ -3,7 +3,6 @@ originalAuthor: Shananas
 game: kh2
 description: Thanks to DA for the start since he made his antiform sora mod. Also thanks to Rapid and Zurph in the OpenKH disc for help on other aspects.
 assets:
-
 #sora form edits
 - name: 00objentry.bin
   method: listpatch
