@@ -6,9 +6,6 @@ If using Better STT (Roxas movement magic etc) place above the seed for STT to w
 
 If using this with lionsoracompanions check out its readme for some bugs specific to it.
 
-PC BUG
-If using on PC forms crash in TR HT AND SP so don't use them there .
-
 
 ![icon](https://user-images.githubusercontent.com/47014056/144799143-606a4424-3c18-4bc5-aa2e-4e837467424b.png)
 
