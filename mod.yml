@@ -1,8 +1,13 @@
 title: Lion Sora Sephiroth
 originalAuthor: Shananas
 game: kh2
-description: Thanks to DA for the start since he made his antiform sora mod. Also thanks to Rapid and Zurph in the OpenKH disc for help on other aspects.
+description: Thanks to DA for the start since he made his antiform sora mod. Also thanks to Rapid and Zurph in the OpenKH disc for help on other aspects. Thanks to Zurph again for allowing Lion Sora to Lion Dash again. (Note: lion dash will only work on PC version due to needing a .dll to make it work and you must also be using Panacea) Lion Dash replaces Retailiating Slash, Running Tackle Replaces Slapshot.
 assets:
+#Lion Dash
+- name: dll/Lion Dash.dll
+  method: copy
+  source:
+  - name: Basic DLL Template.dll
 #sora form edits
 - name: 00objentry.bin
   method: listpatch
@@ -24,6 +29,12 @@ assets:
     source:
     - name: SkltList.yml
       type: sklt
+  - name: item
+    method: listpatch
+    type: List
+    source:
+    - name: ItemList.yml
+      type: item
 - name: 00battle.bin
   method: binarc
   source:
@@ -33,13 +44,17 @@ assets:
     source:
     - name: MagcList.yml
       type: magc
-
-
 #moveset edits
 - name: obj/P_EX100.mset
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK100.mset
+- name: obj/P_EX100.mset
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK100_PC.mset
 - name: obj/P_EX100_AL_CARPET.mset
   method: copy
   source:
@@ -49,9 +64,15 @@ assets:
   source:
   - name: obj/P_LK100_ESCAPE.mset
 - name: obj/P_EX110.mset
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK100.mset
+- name: obj/P_EX110.mset
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK100_PC.mset
 - name: obj/P_EX110_BTLF.mset
   method: copy
   source:
@@ -64,7 +85,6 @@ assets:
   method: copy
   source:
   - name: obj/F_EX030_TT.mset
-
 #obj
 - name: obj/P_EX100.mdlx
   method: copy
@@ -156,7 +176,6 @@ assets:
   source:
   - name: obj/B_EX130.mdlx
     type: internal
-
 #PC Remastered
 - name: remastered/obj/P_EX100.a.us/-0.dds
   platform: pc
