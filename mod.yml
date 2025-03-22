@@ -1,7 +1,7 @@
 title: Lion Sora Sephiroth
 originalAuthor: Shananas
 game: kh2
-description: "Thanks to DA for the start since he made his antiform sora mod. Also thanks to Rapid and Zurph in the OpenKH disc for help on other aspects. Thanks to Zurph again for allowing Lion Sora to Lion Dash again. (Note: lion dash will only work on PC version due to needing a .dll to make it work and you must also be using Panacea) Lion Dash replaces Retailiating Slash, Running Tackle Replaces Slapshot."
+description: "Thanks to DA for the start since he made his antiform sora mod. Also thanks to Rapid and Zurph in the OpenKH disc for help on other aspects. Thanks to Zurph again for allowing Lion Sora to Lion Dash again. (Lion dash will only work on PC version due to needing a .dll to make it work and you must also be using Panacea) Lion Dash replaces Retaliating Slash, Running Tackle Replaces Slapshot."
 assets:
 #Lion Dash
 - name: dll/Lion Dash.dll
