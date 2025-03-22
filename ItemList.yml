@@ -1,5 +1,5 @@
 Items:
-- Id: 262
+- Id: 262 #Running Tackle over Slapshot
   Type: Ability
   Flag0: 0
   Flag1: 165
@@ -14,7 +14,7 @@ Items:
   Picture: 12
   Icon1: 0
   Icon2: 3
-- Id: 273
+- Id: 273 #Dash over Retailiating Slash
   Type: Ability
   Flag0: 0
   Flag1: 166
